@@ -1,0 +1,11 @@
+{
+   "require":{
+      "nepworldwide/nep-audio-language":"0.1"
+   },
+   "repositories":[
+      {
+         "type":"vcs",
+         "url":"git@github.com:nepworldwide/nep-audio-language.git"
+      }
+   ]
+}
