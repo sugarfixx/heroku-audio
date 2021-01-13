@@ -1,9 +1,16 @@
 <?php
 
-// require 'vendor/autoload.php';
+require 'AudioLanguage.php';
 require 'AudioLanguageDictionaries.php';
 
-$library = new AudioLanguageDictionaries();
-$data = $library->listIsoDashThree();
+if (isset($_GET['code'])) {
+    $data = new AudioLanguage($_GET['code']);
+}
+else {
+    $library = new AudioLanguageDictionaries();
+    $data = $library->listIsoDashThree();
+}
+
+
 header('Content-Type: application/json');
 echo json_encode($data);
