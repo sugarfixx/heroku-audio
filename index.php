@@ -1,5 +1,6 @@
 <?php
 
+require 'vendor/autoload.php';
 require 'AudioLanguageDictionaries.php';
 
 $library = new AudioLanguageDictionaries();
