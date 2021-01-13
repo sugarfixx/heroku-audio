@@ -1,0 +1,14 @@
+{
+    "name": "sugarfixx/heroku-audio",
+    "description": "Dictionary",
+    "require": {
+        "ext-json": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sugarfixx",
+            "email": "ingar.torsrud@me.com"
+        }
+    ]
+}
