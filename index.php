@@ -1,9 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
-
-use NepAudioLanguage\AudioLanguageDictionaries;
-
+require 'AudioLanguageDictionaries.php';
 
 $library = new AudioLanguageDictionaries();
 $data = $library->listIsoDashThree();
